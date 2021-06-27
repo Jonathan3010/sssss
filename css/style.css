@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+
+body header div.top {
+    background-color: #222222;
+    font-family: 'Roboto', sans-serif;
+    color: #F3F3F3;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 60px 5px 90px;
+}
+
+div.obj span {
+    padding-left: 20px;
+    
+}
+
+body header div.menu{
+
+    background-color:  #F0A83E;
+    font-family: 'Roboto', sans-serif;
+    color:  #f3f3f3;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 40px 0px 50px;
+}
+
+div.menu ul{
+    display: flex;
+    margin-left: 20px;
+}
+
+body main div img.comedero{
+    width: 100%;
+}
